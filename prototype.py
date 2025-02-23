@@ -3,7 +3,7 @@ import matplotlib.animation as animation
 import serial
 import numpy as np
 
-ser = serial.Serial('COM7', 256000, timeout=1)
+ser = serial.Serial('COM3', 128000, timeout=1)
 
 window_size = 100
 x_data = list(range(window_size))
